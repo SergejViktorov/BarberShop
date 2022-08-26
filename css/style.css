@@ -1,0 +1,268 @@
+:root {
+  --main-background-color: #ffffff;
+  --sec-background-color: #f7f7f7;
+  --dark-bacground-color: #191c26;
+
+  --accent-color: #ff6c00;
+
+  --dark-main-color: #ffffff;
+  --dark-sec-color: #9da4bd;
+  --dark-add-color: rgba(157, 164, 189, 0.6);
+
+  --main-color: #303030;
+  --sec-color: #555555;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--main-background-color);
+}
+h1,
+h2 {
+  margin: 0;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 1.18;
+
+  font-weight: 700;
+}
+h3 {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  margin: 0;
+}
+
+/* Common */
+
+.header {
+  background-color: var(--dark-bacground-color);
+}
+.logo {
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: var(--dark-main-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: var(--dark-main-color);
+}
+
+.hero {
+  background-color: var(--dark-bacground-color);
+}
+.social {
+  color: var(--main-color);
+}
+.social:hover,
+.social:focus {
+  color: var(--accent-color);
+}
+.decor {
+  width: 60px;
+  border-top: 1px solid var(--main-color);
+}
+.sub {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.hero-subtitle {
+  color: var(--dark-add-color);
+}
+.hero-title {
+  color: var(--dark-main-color);
+}
+.hero-description {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--dark-sec-color);
+}
+.hero-back {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+
+  color: var(--dark-add-color);
+}
+.hero-next {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+
+  color: var(--dark-main-color);
+}
+
+.aboutus {
+  display: flex;
+}
+.aboutus-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--main-color);
+}
+.aboutus-title {
+  font-size: 42px;
+  line-height: 1.18;
+
+  color: var(--main-color);
+}
+.aboutus-text {
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: var(--sec-color);
+}
+.aboutus-description {
+  font-size: 14px;
+  line-height: 1.86;
+
+  letter-spacing: 0.02em;
+
+  color: var(--sec-color);
+}
+.prices {
+  background-color: var(--dark-bacground-color);
+}
+.prices-subtitle {
+  color: var(--dark-add-color);
+}
+.prices-title {
+  font-family: 'Raleway', sans-serif;
+  color: var(--dark-main-color);
+}
+.prices-item {
+  font-size: 18px;
+  line-height: 1.67;
+
+  color: var(--dark-sec-color);
+}
+.school {
+  display: flex;
+}
+.school .result-value,
+.school .result-name {
+  text-align: center;
+  line-height: 1.36;
+
+  color: var(--main-color);
+}
+.result-value {
+  font-weight: 700;
+  font-size: 42px;
+
+  letter-spacing: 0.05em;
+}
+.result-name {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.school-subtitle {
+  color: var(--main-color);
+}
+.school-title {
+  font-family: 'Raleway', sans-serif;
+  color: var(--main-color);
+}
+.school-description {
+  font-size: 18px;
+  line-height: 1.67;
+
+  color: var(--sec-color);
+}
+.masters {
+  background-color: var(--sec-background-color);
+}
+.masters-subtitle {
+  color: var(--main-color);
+}
+.masters-title {
+  color: var(--main-color);
+}
+.masters-list {
+  display: flex;
+}
+.masters-name {
+  font-size: 18px;
+  line-height: 1.39;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color);
+}
+.masters-profession {
+  font-size: 14px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+}
+.icons-list {
+  display: flex;
+}
+.social-icon {
+}
+.social-icon:hover {
+  fill: var(--accent-color);
+}
+.portfolio {
+}
+.portfolio-subtitle {
+  color: var(--main-color);
+}
+.portfolio-list {
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  background-color: var(--dark-bacground-color);
+}
+.contacts-title {
+  font-family: 'Raleway', sans-serif;
+  color: var(--dark-main-color);
+}
+
+.footer-text {
+  color: var(--dark-sec-color);
+}

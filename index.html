@@ -4,157 +4,175 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="./css/style.css">
 		<title>BarberShop</title>
 	</head>
 	<body>
-		<header>
+		<header class="header">
 			<nav>
-				<ul>
-					<li>
-						<a href="./index.html"
-							><img
-								src="./images/logo.svg"
+				<a href="./index.html" class="logo">
+					<img src="./images/logo.svg"
 								alt="logo"
 								width="69"
 								height="59"
-								aria-label="logotip"
-						/></a>
-					</li>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Services and prices</a></li>
-					<li><a href="#">Masters</a></li>
-					<li><a href="#">Contacts</a></li>
+								aria-label="logotip"/>
+							</a>
+				<ul>
+					<li><a href="#" class="nav-link">About us</a></li>
+					<li><a href="#" class="nav-link">Services and prices</a></li>
+					<li><a href="#" class="nav-link">Masters</a></li>
+					<li><a href="#" class="nav-link">Contacts</a></li>
 				</ul>
 				<ul>
-					<li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
-					<li><button>Online entry</button></li>
+					<li><a href="tel:+380441111111" class="nav-link">+38 044 111 11 11</a></li>
+					<li><button class="button">Online entry</button></li>
 				</ul>
 			</nav>
 		</header>
 		<main>
 			<!-- hero -->
-			<section>
-				<p>A HAIR SALON FOR MEN IN KYIV</p>
-				<h1>BarberShop</h1>
-				<p>
+			<section class="hero">
+				<ul>
+					<li><a href="#" class="social">Instagram</a></li>
+					<li><a href="#" class="social">Youtube</a></li>
+				<li><div class="decor"></div></li>
+				</ul>
+		
+				<p class="sub hero-subtitle">A HAIR SALON FOR MEN IN KYIV</p>
+				<h1 class="hero-title">BarberShop</h1>
+				<p class="hero-description">
 					We are experts in trendy men's haircuts.<br>
 					 We work quickly, carefully,
 					and tastefully.
 				</p>
+
 				<ul>
-					<li><a href="#">Back</a></li>
-					<li><a href="#">Forward</a></li>
+					<li><a href="#" class="hero-back">Back</a></li>
+					<li><a href="#" class="hero-next">Forward</a></li>
 				</ul>
-				<ul>
-					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Youtube</a></li>
-				</ul>
+				
 			</section>
 
 			<!-- about us -->
-			<section>
+			<section class="aboutus">
 				<ul>
 					<li><img src="./images/beard.jpg" alt="foto beard trim 1"></li>
 					<li><img src="./images/beard2.jpg" alt="foto beard trim 2"></li>
 				</ul>
-				<p>ABOUT US</p>
-				<h2>Best Barbershop your city</h2>
-				<p>
+				<div>
+				<p class="sub aboutus-subtitle">ABOUT US</p>
+				<h2 class="aboutus-title">Best Barbershop your city</h2>
+				<p class="aboutus-text">
 					If you want to add more confidence to your image, you are definitely
 					in the right place
 				</p>
-				<p>
+				<p class="aboutus-description">
 					We are a team that never rests on our laurels and longing for change.
 					And when you fall into the hands of our master, then you can never be
 					the same again. We are a team that is always on the same wavelength
 					with clients. Therefore, we are always ready to improve everyone who
 					comes to us!
 				</p>
-				<button>ONLINE-ENTRY</button>
+				<button class="button">ONLINE-ENTRY</button>
+			</div>
 			</section>
 
-			<!-- services and prices -->
-			<section>
-				<p>SPEND TIME IN THE COMPANY OF THE BEST CRAFTSMEN</p>
-				<h2>Services and prices</h2>
+			<!-- prices -->
+			<section class="prices">
+				<p class="sub prices-subtitle">SPEND TIME IN THE COMPANY OF THE BEST CRAFTSMEN</p>
+				<h2 class="prices-title">Services and prices</h2>
 				<ul>
-					<li><span>Men's haircut from 300 UAH</span></li>
-					<li><span>beard trim from 200 UAH</span></li>
-					<li><span>Mustache haircut from 200 UAH</span></li>
-					<li><span>Shaving with straight razor from 200 UAH</span></li>
-					<li><span>Intern's haircut</span></li>
-					<li><span>Haircut under the nozzle from 200 UAH</span></li>
-					<li><span>Children's haircut (up to 12 years old)</span></li>
-					<li><span>Gray hair camouflage from 200 UAH</span></li>
+					<li><span class="prices-item">Men's haircut from 300 UAH</span></li>
+					<li><span class="prices-item">beard trim from 200 UAH</span></li>
+					<li><span class="prices-item">Mustache haircut from 200 UAH</span></li>
+					<li><span class="prices-item">Shaving with straight razor from 200 UAH</span></li>
+					<li><span class="prices-item">Intern's haircut</span></li>
+					<li><span class="prices-item">Haircut under the nozzle from 200 UAH</span></li>
+					<li><span class="prices-item">Children's haircut (up to 12 years old)</span></li>
+					<li><span class="prices-item">Gray hair camouflage from 200 UAH</span></li>
 				</ul>
-				<button>ONLINE-ENTRY</button>
+				<button class="button">ONLINE-ENTRY</button>
 			</section>
-			<!-- why are we -->
-			<section>
-				<p>OLD TRADITIONAL SCHOOL</p>
-				<h2>Why do they come to us?</h2>
-				<p>
+			<!-- old traditional school -->
+			<section class="school">
+
+				<ul>
+					<li>
+						<p class="result-value">600<sup>+</sup></p>
+						<p class="result-name">Satisfied customers per day</p>
+					</li>
+					<li>
+						<p class="result-value">50<sup>+</sup></p>
+						<p class="result-name">Excellent Service Awards</p>
+					</li>
+					<li>
+						<p class="result-value">20<sup>+</sup></p>
+						<p class="result-name">The best masters of Kyiv</p>
+					</li>
+					<li>
+						<p class="result-value">100<sup>+</sup></p>
+						<p class="result-name">Gifts for regular customers</p>
+					</li>
+				</ul>
+<div>
+			<p class="sub school-subtitle">OLD TRADITIONAL SCHOOL</p>
+				<h2 class="school-title">Why do they come to us?</h2>
+				<p class="school-description">
 					Only good things are said about us. But it is better to see and feel 1
 					time than to read 10 times.
 				</p>
-				<ul>
-					<li><p>600 Satisfied customers per day</p></li>
-					<li><p>50 Excellent Service Awards</p></li>
-					<li><p>20 The best masters of Kyiv</p></li>
-					<li><p>100 Gifts for regular customers</p></li>
-				</ul>
+				</div>
 			</section>
 
 			<!-- masters -->
-			<section>
-				<p>FOR TRUE CONNOISSEURS OF THE ATMOSPHERE</p>
-				<h2>OUR MASTERS</h2>
-				<ul>
+			<section class="masters">
+				<p class="sub masters-subtitle">FOR TRUE CONNOISSEURS OF THE ATMOSPHERE</p>
+				<h2 class="masters-title">OUR MASTERS</h2>
+				<ul class="masters-list">
 					<li>
 						<img src="./images/img1.jpg" alt="" />
-						<p>John Smith</p>
-						<p>Extreme Barber</p>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+						<p class="masters-name">John Smith</p>
+						<p class="masters-profession">Extreme Barber</p>
+						<ul class="icons-list">
+							<li><a class="social-icon"><svg width="20" height="20" ><use href="./sprite.svg#instagram"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#twitter"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#facebook"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#linkedin"></use></svg></a></li>
 						</ul>
 					</li>
 					<li>
 						<img src="./images/img2.jpg" alt="" />
-						<p>Michele Doe</p>
-						<p>Extreme Barber</p>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+						<p class="masters-name">Michele Doe</p>
+						<p class="masters-profession">Extreme Barber</p>
+					<ul class="icons-list">
+							<li><a class="social-icon"><svg width="20" height="20" ><use href="./sprite.svg#instagram"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#twitter"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#facebook"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#linkedin"></use></svg></a></li>
 						</ul>
 					</li>
 					<li>
 						<img src="./images/img3.jpg" alt="" />
-						<p>Alan Black</p>
-						<p>Extreme Barber</p>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+						<p class="masters-name">Alan Black</p>
+						<p class="masters-profession">Extreme Barber</p>
+					<ul class="icons-list">
+							<li><a class="social-icon"><svg width="20" height="20" ><use href="./sprite.svg#instagram"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#twitter"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#facebook"></use></svg></a></li>
+							<li><a class="social-icon"><svg  width="20" height="20" ><use href="./sprite.svg#linkedin"></use></svg></a></li>
 						</ul>
 					</li>
 				</ul>
 			</section>
 
 			<!-- portfolio -->
-			<section>
-				<p>In Latin, "barba" means "beard"</p>
-				<ul>
+			<section class="portfolio">
+				<p class="sub portfolio-subtitle">In Latin, "barba" means "beard"</p>
+				<ul class="portfolio-list">
 					<li><img src="./images/Rectangle25.jpg" alt="foto master1" /></li>
 					<li><img src="./images/Rectangle26.jpg" alt="foto master2" /></li>
 					<li><img src="./images/Rectangle27.jpg" alt="foto master3" /></li>
@@ -163,13 +181,15 @@
 			</section>
 
 			<!-- contacts -->
-			<section>
-				<div><h2>ONLINE-ENTRY</h2>
-					<form></form>
-					<button>SEND</button>
-				</div>
+			<section class="contacts">
 				<div>
-					<h2>Contacts</h2>
+					<h2 class="contacts-title">ONLINE-ENTRY</h2>
+					<form></form>
+					<button class="button">SEND</button>
+				</div>
+
+				<div>
+					<h2 class="contacts-title">Contacts</h2>
 					<ul>
 						<li><adress>ул. Васильковая, 7А Киев, 08132</adress></li>
 						<li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
@@ -181,9 +201,13 @@
 				</div>
 			</section>
 		</main>
-		<footer><span>&#169 Copyright 2020</span> <ul>
-					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Youtube</a></li>
-				</ul></footer>
+		<footer>
+			<span class="footer-text">&#169 Copyright 2020</span> 
+			<ul>
+					<li><a href="#" class="social">Instagram</a></li>
+					<li><a href="#" class="social">Youtube</a></li>
+				
+				</ul>
+			</footer>
 	</body>
 </html>
