@@ -227,16 +227,32 @@ p {
   color: var(--dark-add-color);
 }
 .prices-title {
-  font-family: 'Raleway', sans-serif;
+  margin-bottom: 44px;
   color: var(--dark-main-color);
 }
+.prices-list {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  margin-bottom: 50px;
+  padding: 40px 30px;
+}
+
 .prices-item {
+}
+
+.item-text {
   font-size: 18px;
   line-height: 1.67;
 
   color: var(--dark-sec-color);
 }
 .school {
+}
+.school > .container {
+  display: flex;
+}
+.school-list {
+  margin-right: 130px;
 }
 .school .result-value,
 .school .result-name {
@@ -260,7 +276,7 @@ p {
   color: var(--main-color);
 }
 .school-title {
-  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
   color: var(--main-color);
 }
 .school-description {
