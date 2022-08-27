@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<header class="header">
-			<nav>
+			<div class="container">
 				<a href="./index.html" class="logo">
 					<img src="./images/logo.svg"
 								alt="logo"
@@ -21,21 +21,22 @@
 								height="59"
 								aria-label="logotip"/>
 							</a>
-				<ul>
-					<li><a href="#" class="nav-link">About us</a></li>
-					<li><a href="#" class="nav-link">Services and prices</a></li>
-					<li><a href="#" class="nav-link">Masters</a></li>
-					<li><a href="#" class="nav-link">Contacts</a></li>
-				</ul>
-				<ul>
-					<li><a href="tel:+380441111111" class="nav-link">+38 044 111 11 11</a></li>
-					<li><button class="button">Online entry</button></li>
+			<nav>
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Services and prices</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Masters</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
 				</ul>
 			</nav>
+			<a href="tel:+380441111111" class="tel-link nav-link">+38 044 111 11 11</a>
+			<button class="button">Online entry</button>
+			</div>
 		</header>
 		<main>
 			<!-- hero -->
 			<section class="hero">
+				<div class="container">
 				<ul>
 					<li><a href="#" class="social">Instagram</a></li>
 					<li><a href="#" class="social">Youtube</a></li>
@@ -59,13 +60,14 @@
 
 			<!-- about us -->
 			<section class="aboutus">
+				<div class="container">
 				<ul>
 					<li><img src="./images/beard.jpg" alt="foto beard trim 1"></li>
 					<li><img src="./images/beard2.jpg" alt="foto beard trim 2"></li>
 				</ul>
 				<div>
 				<p class="sub aboutus-subtitle">ABOUT US</p>
-				<h2 class="aboutus-title">Best Barbershop your city</h2>
+				<h2 class="aboutus-title section-header">Best Barbershop your city</h2>
 				<p class="aboutus-text">
 					If you want to add more confidence to your image, you are definitely
 					in the right place
@@ -79,12 +81,14 @@
 				</p>
 				<button class="button">ONLINE-ENTRY</button>
 			</div>
+			</div>
 			</section>
 
 			<!-- prices -->
 			<section class="prices">
+				<div class="container">
 				<p class="sub prices-subtitle">SPEND TIME IN THE COMPANY OF THE BEST CRAFTSMEN</p>
-				<h2 class="prices-title">Services and prices</h2>
+				<h2 class="prices-title section-header" >Services and prices</h2>
 				<ul>
 					<li><span class="prices-item">Men's haircut from 300 UAH</span></li>
 					<li><span class="prices-item">beard trim from 200 UAH</span></li>
@@ -96,10 +100,11 @@
 					<li><span class="prices-item">Gray hair camouflage from 200 UAH</span></li>
 				</ul>
 				<button class="button">ONLINE-ENTRY</button>
+				</div>
 			</section>
 			<!-- old traditional school -->
 			<section class="school">
-
+<div class="container">
 				<ul>
 					<li>
 						<p class="result-value">600<sup>+</sup></p>
@@ -120,18 +125,20 @@
 				</ul>
 <div>
 			<p class="sub school-subtitle">OLD TRADITIONAL SCHOOL</p>
-				<h2 class="school-title">Why do they come to us?</h2>
+				<h2 class="school-title section-header">Why do they come to us?</h2>
 				<p class="school-description">
 					Only good things are said about us. But it is better to see and feel 1
 					time than to read 10 times.
 				</p>
 				</div>
+				</div>
 			</section>
 
 			<!-- masters -->
 			<section class="masters">
+				<div class="container">
 				<p class="sub masters-subtitle">FOR TRUE CONNOISSEURS OF THE ATMOSPHERE</p>
-				<h2 class="masters-title">OUR MASTERS</h2>
+				<h2 class="masters-title section-header">OUR MASTERS</h2>
 				<ul class="masters-list">
 					<li>
 						<img src="./images/img1.jpg" alt="" />
@@ -167,10 +174,12 @@
 						</ul>
 					</li>
 				</ul>
+				</div>
 			</section>
 
 			<!-- portfolio -->
 			<section class="portfolio">
+				<div class="container">
 				<p class="sub portfolio-subtitle">In Latin, "barba" means "beard"</p>
 				<ul class="portfolio-list">
 					<li><img src="./images/Rectangle25.jpg" alt="foto master1" /></li>
@@ -178,36 +187,43 @@
 					<li><img src="./images/Rectangle27.jpg" alt="foto master3" /></li>
 					<li><img src="./images/Rectangle28.jpg" alt="foto master4" /></li>
 				</ul>
+				</div>
 			</section>
 
 			<!-- contacts -->
 			<section class="contacts">
+				<div class="container">
 				<div>
-					<h2 class="contacts-title">ONLINE-ENTRY</h2>
+					<h2 class="contacts-title section-header">ONLINE-ENTRY</h2>
 					<form></form>
-					<button class="button">SEND</button>
+					<button class="button ">SEND</button>
 				</div>
 
 				<div>
-					<h2 class="contacts-title">Contacts</h2>
-					<ul>
-						<li><adress>ул. Васильковая, 7А Киев, 08132</adress></li>
-						<li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
-						<li><a href="mailto:barbershop@email.com">barbershop@email.com</a></li>
-					</ul>
+					<h2 class="contacts-title section-header">Contacts</h2>
+					
+						<adress>
+							ул. Васильковая, 7А<br>
+							 Киев, 08132<br>
+						<a href="tel:+380441111111">+38 044 111 11 11</a>
+						<a href="mailto:barbershop@email.com">barbershop@email.com</a>
+					</adress>
 					<p>working hours</p>
 					<p>Daily from 9:00 to 22:00</p>
 					
 				</div>
+				</div>
 			</section>
 		</main>
 		<footer>
+			<div class="container">
 			<span class="footer-text">&#169 Copyright 2020</span> 
 			<ul>
 					<li><a href="#" class="social">Instagram</a></li>
 					<li><a href="#" class="social">Youtube</a></li>
 				
 				</ul>
+				</div>
 			</footer>
 	</body>
 </html>

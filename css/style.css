@@ -22,8 +22,6 @@ h2 {
   margin: 0;
 
   font-family: 'Raleway', sans-serif;
-  font-size: 42px;
-  line-height: 1.18;
 
   font-weight: 700;
 }
@@ -47,14 +45,70 @@ p {
 }
 
 /* Common */
+.container {
+  width: 1170;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-header {
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.button {
+  box-sizing: border-box;
+
+  width: 160px;
+  height: 40px;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: var(--dark-main-color);
+
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+}
+.sub {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+/* header */
 
 .header {
   background-color: var(--dark-bacground-color);
 }
-.logo {
+.header > .container {
+  display: flex;
+  align-items: center;
 }
-
+.logo {
+  margin-right: 71px;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+}
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
 .nav-link {
+  display: block;
+  padding: 52px 0;
+
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -66,15 +120,9 @@ p {
 .nav-link:focus {
   color: var(--accent-color);
 }
-.button {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-
-  background-color: transparent;
-  color: var(--dark-main-color);
+.tel-link {
+  margin-left: auto;
+  margin-right: 40px;
 }
 
 .hero {
@@ -91,11 +139,7 @@ p {
   width: 60px;
   border-top: 1px solid var(--main-color);
 }
-.sub {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-}
+
 .hero-subtitle {
   color: var(--dark-add-color);
 }
@@ -127,7 +171,6 @@ p {
 }
 
 .aboutus {
-  display: flex;
 }
 .aboutus-subtitle {
   font-weight: 600;
@@ -174,7 +217,6 @@ p {
   color: var(--dark-sec-color);
 }
 .school {
-  display: flex;
 }
 .school .result-value,
 .school .result-name {
@@ -255,7 +297,6 @@ p {
 }
 
 .contacts {
-  display: flex;
   background-color: var(--dark-bacground-color);
 }
 .contacts-title {
