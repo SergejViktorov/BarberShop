@@ -46,11 +46,14 @@ p {
 
 /* Common */
 .container {
-  width: 1170;
+  width: 1170px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.section {
+  padding: 130px 0;
 }
 .section-header {
   font-size: 42px;
@@ -80,7 +83,12 @@ p {
 .button:focus {
   color: var(--accent-color);
 }
+.light {
+  color: var(--main-color);
+}
 .sub {
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -172,19 +180,30 @@ p {
 
 .aboutus {
 }
+.aboutus > .container {
+  display: flex;
+}
 .aboutus-subtitle {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
   color: var(--main-color);
 }
+.aboutus-list {
+  display: flex;
+  margin-right: 64px;
+}
+.aboutus-list > .item:not(:last-child) {
+  margin-right: 30px;
+}
 .aboutus-title {
+  margin-bottom: 20px;
+
   font-size: 42px;
   line-height: 1.18;
 
   color: var(--main-color);
 }
 .aboutus-text {
+  margin-bottom: 20px;
+
   font-size: 18px;
   line-height: 1.67;
 
@@ -193,6 +212,7 @@ p {
   color: var(--sec-color);
 }
 .aboutus-description {
+  margin-bottom: 40px;
   font-size: 14px;
   line-height: 1.86;
 
